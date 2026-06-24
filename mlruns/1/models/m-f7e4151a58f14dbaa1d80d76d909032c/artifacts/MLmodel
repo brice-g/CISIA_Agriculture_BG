@@ -1,0 +1,23 @@
+artifact_path: file:///d:/Brice/Simplon_formation_ia/Examen/rendu_CISIA_agriculture/CISIA_Agriculture_BG/mlruns/1/models/m-f7e4151a58f14dbaa1d80d76d909032c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-f7e4151a58f14dbaa1d80d76d909032c
+model_size_bytes: 9422942
+model_uuid: m-f7e4151a58f14dbaa1d80d76d909032c
+prompts: null
+run_id: 451adc3fc8434f90b1c522dfe1e5e0ea
+utc_time_created: '2026-06-14 08:16:15.304791'
